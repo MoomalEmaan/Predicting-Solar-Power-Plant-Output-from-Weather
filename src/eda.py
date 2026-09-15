@@ -10,7 +10,7 @@ plt.xlabel("Irradiation")
 plt.ylabel("AC Power")
 plt.title("AC Power vs Irradiation")
 plt.grid(True)
-plt.savefig("results/ac_power_vs_irradiation.png")
+plt.savefig("results/figures/ac_power_vs_irradiation.png")
 plt.show()
 
 #Module temperature vs ambient temperature
@@ -20,7 +20,7 @@ plt.ylabel("Module Temperature")
 plt.title("Module Temperature vs Ambient Temperature")
 plt.colorbar(label="Irradiation")
 plt.grid(True)
-plt.savefig("results/module_temp_vs_ambient_temp.png")
+plt.savefig("results/figures/module_temp_vs_ambient_temp.png")
 plt.show()
 
 #AC power vs DC power
@@ -29,7 +29,7 @@ plt.xlabel("DC Power")
 plt.ylabel("AC Power")
 plt.title("AC Power vs DC Power")
 plt.grid(True)
-plt.savefig("results/ac_power_vs_dc_power.png")
+plt.savefig("results/figures/ac_power_vs_dc_power.png")
 plt.show()
 
 #calculate AC/DC ratio
@@ -46,5 +46,5 @@ plt.ylabel("Average AC Power")
 plt.title("Average AC Power by Hour")
 plt.xticks(range(24))
 plt.grid(True)
-plt.savefig("results/average_ac_power_by_hour.png")
+plt.savefig("results/figures/average_ac_power_by_hour.png")
 plt.show()

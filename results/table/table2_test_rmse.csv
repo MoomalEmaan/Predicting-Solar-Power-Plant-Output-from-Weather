@@ -1,0 +1,7 @@
+Solver,Features,All hours,Daytime only
+Normal equation,Set A,553.32,723.41
+"Batch GD (alpha=0.0001, 50000 iters)",Set A,553.32,723.41
+"Stochastic GD (alpha=0.01, 50 epochs)",Set A,562.91,736.73
+Normal equation,Set B,2626.13,3417.65
+"Batch GD (alpha=0.0001, 50000 iters)",Set B,2626.13,3417.65
+"Stochastic GD (alpha=0.01, 50 epochs)",Set B,2479.75,3141.98

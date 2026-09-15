@@ -1,0 +1,8 @@
+Item,Value
+Raw generation rows (Plant 1),68778
+Raw sensor rows (Plant 1),3182
+Timestamps in only one file,26
+Hourly rows after resampling,816
+Hourly rows with missing values,20 (dropped)
+Open-Meteo rows downloaded,816
+"Peak hour, sensor irradiation vs. Open-Meteo radiation (three days)",2020-05-15: 12:00 vs 12:00; 2020-05-16: 12:00 vs 12:00; 2020-05-17: 11:00 vs 12:00
